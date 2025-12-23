@@ -8,18 +8,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-5ObWk2rO.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-MjawMu3A.js">
     <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-DumFYO8Z.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-MU88KJfZ.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-BqN5FNH4.css">
   </head>
   <body>
-    <form class="search-form" >
+    <form class="search-form">
       <input type="text" name="query" placeholder="Search images..." autocomplete="off" />
-      <button type="submit">Ara</button>
+      <button type="submit">Search</button>
     </form>
+    
 
-    <span class="loader is-hidden">Loading</span>
+    <div class="search-loader is-hidden">Loading...</div>
+    
+
     <ul class="gallery"></ul>
-
+    
+
+    <div class="load-more-wrapper">
+
+      <button type="button" class="load-more is-hidden">
+        Load more
+      </button>
+    
+
+      <div class="load-more-loader is-hidden">
+        Loading...
+      </div>
+    </div>
+    
+    
   </body>
 </html>
